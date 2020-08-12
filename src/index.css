@@ -1,13 +1,183 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.menu_box{
+    width: 100vw;
+    height: 8vh;
+    background: black;
+    display: flex;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 5px;
+    left:5px;
+}
+
+ul{
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+li:nth-child(1){
+    margin-left:30px;
+}
+li:nth-child(2){
+    margin-left:30px;
+}
+li:nth-child(3){
+    margin-left:30px;
+}
+li:nth-child(4){
+    margin-left:30px;
+}
+
+
+
+
+.footer{
+    background: black;
+    color: white;
+    height: 30px;
+    margin-top: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.footer p{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.form_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+
+.form{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+input{
+    width: 200px;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid navy;
+    font-size: 20px;
+    outline: none;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    left: 30%;
+}
+textarea{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    font-size: 20px;
+    outline: none;
+    width: 620px;
+    height: 150px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.add_btn{
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-weight: lighter;
+    outline: none;
+    position: relative;
+    left: 280px;
+    top: -80px;
+}
+
+.add_btn:active{
+    background: black;
+    font-size: bolder;
+    color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+.item_main_div{
+    border: 0.5px solid black;
+    height: 150px;
+    width: 270px;
+    position: relative;
+    left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.head{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.content_para{
+    font-family: monospace;
+    margin-top: 4px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+
+.delete_btn{
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    color: red;
+    background: white;
+    position: relative;
+    left: 6.2rem;
+    top: 1.4rem;
 }
