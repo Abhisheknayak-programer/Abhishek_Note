@@ -6,16 +6,16 @@
 
 .menu_box{
     width: 100vw;
-    height: 8vh;
+    height: 15vh;
     background: black;
     display: flex;
 }
 
 img{
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     position: relative;
-    top: 0.4rem;
+    top: 0.8rem;
     left:1rem;
 }
 
@@ -212,6 +212,9 @@ textarea{
     }
     .item_main_div{
         width: 25rem;
+        left: 3.8rem;
+        right: 3.8rem;
+
     }
     .delete_btn{
         left: 10rem;
@@ -242,6 +245,13 @@ textarea{
     input{
         left: 11%;
     }
+    img {
+        height: 1rem;
+        width: 1rem;
+        position: relative;
+        top: 0.3rem;
+        left: 0.3rem;
+    }
     .add_btn{
         left: 5.3rem;
         background: black;
@@ -257,11 +267,10 @@ textarea{
     }
 
 
-    img {
-        display: none;
-    }
     .item_main_div{
         width: 15rem;
+        left: 2rem;
+        right: -2rem;
     }
     .delete_btn{
         left: 5.5rem;
@@ -271,6 +280,22 @@ textarea{
         list-style: none;
         cursor: pointer;
         font-size: 0.6rem;
+        position: relative;
+        margin-top: -0.6rem;
     }
+
+    
+li:nth-child(1){
+    margin-left: 0.6rem;
+}
+li:nth-child(2){
+    margin-left: 0.6rem;
+}
+li:nth-child(3){
+    margin-left: 0.6rem;
+}
+li:nth-child(4){
+    margin-left: 0.6rem;
+}
 
 }
