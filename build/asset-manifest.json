@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Abhishek_Note/static/css/main.f222588c.chunk.css",
+    "main.js": "/Abhishek_Note/static/js/main.73e8cc9d.chunk.js",
+    "main.js.map": "/Abhishek_Note/static/js/main.73e8cc9d.chunk.js.map",
+    "runtime-main.js": "/Abhishek_Note/static/js/runtime-main.ece15c18.js",
+    "runtime-main.js.map": "/Abhishek_Note/static/js/runtime-main.ece15c18.js.map",
+    "static/js/2.6f74773d.chunk.js": "/Abhishek_Note/static/js/2.6f74773d.chunk.js",
+    "static/js/2.6f74773d.chunk.js.map": "/Abhishek_Note/static/js/2.6f74773d.chunk.js.map",
+    "index.html": "/Abhishek_Note/index.html",
+    "precache-manifest.15a499d42bcc7674da81327b3ec4ec43.js": "/Abhishek_Note/precache-manifest.15a499d42bcc7674da81327b3ec4ec43.js",
+    "service-worker.js": "/Abhishek_Note/service-worker.js",
+    "static/css/main.f222588c.chunk.css.map": "/Abhishek_Note/static/css/main.f222588c.chunk.css.map",
+    "static/js/2.6f74773d.chunk.js.LICENSE.txt": "/Abhishek_Note/static/js/2.6f74773d.chunk.js.LICENSE.txt",
+    "static/media/1.jpeg": "/Abhishek_Note/static/media/1.f1a029e5.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ece15c18.js",
+    "static/js/2.6f74773d.chunk.js",
+    "static/css/main.f222588c.chunk.css",
+    "static/js/main.73e8cc9d.chunk.js"
+  ]
+}

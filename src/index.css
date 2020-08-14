@@ -12,11 +12,11 @@
 }
 
 img{
-    height: 50px;
-    width: 50px;
+    height: 3rem;
+    width: 3rem;
     position: relative;
-    top: 5px;
-    left:5px;
+    top: 0.4rem;
+    left:1rem;
 }
 
 ul{
@@ -24,28 +24,28 @@ ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    padding: 1.2rem;
     position: absolute;
-    right: 20px;
+    right: 1rem;
 }
 
 li{
     list-style: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 li:nth-child(1){
-    margin-left:30px;
+    margin-left: 1.6rem;
 }
 li:nth-child(2){
-    margin-left:30px;
+    margin-left: 1.6rem;
 }
 li:nth-child(3){
-    margin-left:30px;
+    margin-left: 1.6rem;
 }
 li:nth-child(4){
-    margin-left:30px;
+    margin-left: 1.6rem;
 }
 
 
@@ -54,7 +54,7 @@ li:nth-child(4){
 .footer{
     background: black;
     color: white;
-    height: 30px;
+    height: 2rem;
     margin-top: 25vh;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ li:nth-child(4){
 }
 .footer p{
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 
@@ -83,49 +83,51 @@ li:nth-child(4){
 
 .form{
     border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 20px;
-    border-radius: 20px;
+    padding: 1.7rem;
+    margin: 0.7rem;
+    margin-top: 1.2rem;
+    border-radius: 1.2rem;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
 
 input{
-    width: 200px;
-    margin-top: 30px;
+    width: 10rem;
+    margin-top: 1.6rem;
     border: none;
     border-bottom: 2px solid navy;
-    font-size: 20px;
+    font-size: 1.1rem;
     outline: none;
     text-transform: capitalize;
     text-align: center;
     position: relative;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
-    left: 30%;
+    left: 36%;
 }
+
+
 textarea{
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
-    font-size: 20px;
+    font-size: 1.5rem;
     outline: none;
-    width: 620px;
-    height: 150px;
+    width: 39rem;
+    height: 10rem;
     text-transform: capitalize;
-    margin-top: 10px;
-    border-radius: 20px;
+    margin-top: 0.7rem;
+    border-radius: 1.5rem;
     text-align: center;
 }
 
 
 .add_btn{
-    font-size: 30px;
-    height: 50px;
-    width: 50px;
+    font-size: 2rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     font-weight: lighter;
     outline: none;
     position: relative;
-    left: 280px;
-    top: -80px;
+    left: 17.5rem;
+    top: -6.1rem;
 }
 
 .add_btn:active{
@@ -143,31 +145,31 @@ textarea{
 
 .item_main_div{
     border: 0.5px solid black;
-    height: 150px;
-    width: 270px;
+    height: 10rem;
+    width: 20rem;
     position: relative;
-    left: 20px;
-    padding: 20px;
-    border-radius: 20px;
+    left: 1.6rem;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 1.6rem;
+    margin-top: 1.6rem;
 }
 
 .head{
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 1.6rem;
     font-family: fantasy;
-    letter-spacing: 1px;
+    letter-spacing: 0.03rem;
     text-transform: capitalize;
 }
 
 .content_para{
     font-family: monospace;
-    margin-top: 4px;
+    margin-top: 0.3rem;
     text-transform: capitalize;
-    font-size: 15px;
+    font-size: 1.3rem;
 }
 
 
@@ -178,6 +180,97 @@ textarea{
     color: red;
     background: white;
     position: relative;
-    left: 6.2rem;
-    top: 1.4rem;
+    left: 8rem;
+    top: 1.3rem;
+}
+
+
+@media only screen and (max-width:765px){
+    .form {
+        padding: 1.7rem;
+        margin: 0.7rem;
+        width: 25rem;
+        margin-top: 1.2rem;
+        border-radius: 1.2rem;
+    }
+
+    textarea{
+        width: 22rem;
+    }
+    input{
+        left: 27%;
+    }
+    .add_btn{
+        left: 9.5rem;
+    }
+    img {
+        height: 2rem;
+        width: 2rem;
+        position: relative;
+        top: 0.7rem;
+        left: 0.5rem;
+    }
+    .item_main_div{
+        width: 25rem;
+    }
+    .delete_btn{
+        left: 10rem;
+        top: 0.3rem;
+    }
+    .menu_box{  
+        height: 13vh;
+        }
+
+}
+
+@media only screen and (min-width:300px) and (max-width:500px){
+    .form {
+        padding: 0.7rem;
+        margin: 0.7rem;
+        width: 15rem;
+        margin-top: 2.2rem;
+        border-radius: 1.2rem;
+    }
+    .menu_box{  
+    height: 8vh;
+    }
+    textarea{
+        width: 13.5rem;
+        border-radius: 0.5rem;
+        padding: 10px;
+    }
+    input{
+        left: 11%;
+    }
+    .add_btn{
+        left: 5.3rem;
+        background: black;
+        color: white;
+        font-size: 1rem;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 9%;
+        font-weight: lighter;
+        outline: none;
+        position: relative;
+        top: -4.1rem;
+    }
+
+
+    img {
+        display: none;
+    }
+    .item_main_div{
+        width: 15rem;
+    }
+    .delete_btn{
+        left: 5.5rem;
+        top: 0.1rem;
+    }
+    li {
+        list-style: none;
+        cursor: pointer;
+        font-size: 0.6rem;
+    }
+
 }
